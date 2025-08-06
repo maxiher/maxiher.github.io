@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(163, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo {
+    color: rgb(9, 9, 99);
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(93, 241, 204);
+    margin: 0;
+}
+
+#subtitulo {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin:10px;
+}
+
+.sobre-mi {
+    background-color: rgb(103, 243, 208);
+    padding: 1px;
+    text-align: center;
+}
+
+.estudios {
+    background-color: rgb(134, 252, 236);
+    padding: 1px;
+    padding-left: 100px;
+}
+
+.contacto {
+    background-color: rgb(132, 241, 214);
+    text-align: left;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+p { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagenes { 
+    background-color: rgb(134, 252, 236);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+img{
+    border-style: groove;
+    border-color: rgb(0, 60, 255);
+}
+
+img:hover {
+    transform: scale(1.2);
+    border-color: rgb(41, 236, 2);
+}
+
+h3{
+    text-align: center;
+    color: rgb(5, 5, 92);
+    font-size: 30px;
+    background-color: rgb(119, 240, 210);
+    padding: 20px;
+    margin: 0;
+}
+h4{
+    font-size: 30px;
+    margin: 0;
+    padding-top: 20px;
+}
