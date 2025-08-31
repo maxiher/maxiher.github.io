@@ -69,6 +69,12 @@ h2 {
     font-size: 1.5em;
 }
 
+.primer-parrafo {
+    padding-left: 2%;
+    line-height: 1.7;
+    color: rgb(145, 255, 255);
+}
+
 li {
     margin-bottom: 5%;
 }
@@ -77,8 +83,12 @@ ul{
     justify-items: flex-start;
     padding-left: 44%;
     list-style-type: square;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: rgb(165, 255, 255);
+
+}
+.desplegable{
+border-bottom: 1px solid rgba(0, 0, 0, 0.411);
 }
 
 .trabajos>h2{
@@ -127,3 +137,4 @@ footer {
     color: #ffffff;
     font-size: 1.5em;
 }
+
