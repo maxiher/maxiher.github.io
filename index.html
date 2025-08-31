@@ -13,46 +13,60 @@
         <h1 id="titulo">&lt;h1&gt;Maximiliano Hernández&lt;/h1&gt;</h1>
         <p id="subtitulo">Programador en formacion</p>
     </header>
+
     <main>
-        <div class="grid">
-        <section class="sobre-mi">
-            <h2>Sobre mi</h2>
-            <p class="primer-parrafo">Me llamo Maxi y este año empecé a estudiar programación en JaP.</p>
+        <section class="grid">
+            <div class="desplegable">
+                <h2>Sobre mi</h2>
+                <div class="contenido">
+                    <p class="primer-parrafo">Me llamo Maxi y este año empecé a estudiar programación en JaP.</p>
+                </div>
+            </div>
+
+            <div class="desplegable">
+                <h2>Estoy Aprendiendo</h2>
+                <div class="contenido">
+                    <ul id="lista-estudios">
+                        <li>JavaScript</li>
+                        <li>Ruby</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Figma</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section class="estudios">
-            <h2>Estudios</h2>
-            <p>Lo que estoy aprendiendo:</p>
-            <ul id="lista-estudios">
-                <li>JavaScript</li>
-                <li>Ruby</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </section>
-        </div>
-        <h3>Mis Primeros Trabajos</h3>
-        <section id="imagenes">
-            <img src="segundotrabajo.png" alt="segundotrabajo" width="250" height="250">
-            <img src="primertrabajo.png" alt="primertrabajo" width="250" height="250">
-            <img src="cuartotrabajo.png" alt="cuartotrabajo" width="250" height="250">
-            <img src="tercertrabajo.png" alt="tercertrabajo" width="250" height="250">
+        <section class="trabajos">
+            <h2>Algunos Trabajos</h2>
+            <div class="grid-proyectos">
+
+                <div class="proyecto">
+                    <img src="segundotrabajo.png" alt="segundotrabajo" height="350px">
+                </div>
+
+                <div class="proyecto">
+                    <img src="primertrabajo.png" alt="primertrabajo" height="350px">
+                </div>
+
+                <div class="proyecto">
+                    <img src="cuartotrabajo.png" alt="cuartotrabajo" height="350px">
+                </div>
+
+                <div class="proyecto">
+                    <img src="tercertrabajo.png" alt="tercertrabajo" height="350px">
+                </div>
+            </div>
         </section>
     </main>
-    <section class="contacto">
-        <h4>Contacto</h4>
-        <table>
-            <tr>
-                <th>Mail:</th>
-                <td> maxihernandez4444@gmail.com</td>
-            </tr>
-            <tr>
-                <th>Tel:</th>
-                <td>096444555</td>
-            </tr>
-        </table>
-
-    </section>
+    <footer>
+        <section class="contacto">
+            <h4>Contacto</h4>
+            <p>mail: maxihernandez4444@gmail.com</p>
+            <p>telefono: 096444555</p>
+        </section>
+    </footer>
 </body>
 
 </html>
